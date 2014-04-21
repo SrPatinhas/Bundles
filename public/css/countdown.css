@@ -1,0 +1,257 @@
+
+/* Getting started example */
+#getting-started{
+    border-radius: 5px;
+    -o-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+
+    border: 1px solid #cccccc;
+    margin-bottom: 20px;
+    padding: 10px 0;
+    text-align: center;
+}
+#getting-started span{
+    border-radius: 2px;
+    -o-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+
+    background-color: #333333;
+    color: #ffffff;
+    display: inline-block;
+    font-size: 25px;
+    font-weight: bold;
+    line-height: 25px;
+    padding: 5px;
+}
+/* Examples */
+.basic-coupon,
+.advanced-coupon{
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    transition: all 1s ease;
+    
+    border-radius: 5px;
+    -o-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+
+    background-color: #609DD6;
+    color: #ffffff;
+    font-weight: bold;
+    margin: 20px 0 20px;
+    text-align: center;
+    padding: 20px;
+}
+.basic-coupon span,
+.advanced-coupon span{
+    font-size: 20px;
+    display: block;
+}
+.advanced-coupon.disabled{
+    background-color: #999999;
+}
+.advanced-coupon .form-control{
+    margin: 0 auto;
+}
+.advanced-coupon-display{
+    padding-bottom: 20px;
+}
+.big-countdown{
+    height: 90px;
+    padding: 40px 10px;
+    text-align: center;
+}
+.big-countdown div{
+    font-size: 100%;
+    margin-top: 5px;
+    line-height: 10px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+.big-countdown span{
+    border-radius: 5px;
+    -o-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+
+    background-color: #333333;
+    color: #ffffff;
+    font-size: 100%;
+    font-weight: bold;
+    padding: 5px;
+}
+.multiple-instance .clock{
+    border-radius: 5px;
+    -o-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+
+    background-color: #609DD6;
+    color: #ffffff;
+    font-weight: bold;
+    line-height: 30px;
+    text-align: center;
+}
+
+
+/** bundle info **/
+
+.bundle_title{
+    display: block;
+    background: #FFF;
+    float: left;
+    border-radius: 5px;
+    border: 4px dashed #000;
+    margin: -30px;
+    height: 73px;
+    padding: 10px 0;
+}
+.title_bundle {
+    margin: -15px 40px 0 0;
+    padding: 20px;
+    font-size: 32px;
+    font-family: monospace;
+    color: #000;
+    text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.9);
+    text-align: center;
+    font-weight: 400;
+}
+.price_bundle {
+    margin: 0px;
+    padding: 20px;
+    font-size: 22px;
+    color: white;
+    text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.9);
+    text-align: center;
+    font-weight: 400;
+}
+.bundle_capa{
+    position: absolute;
+    max-width: 930px;
+    max-height: 350px;
+    margin: 5px 0;
+    left: 12px;
+}
+    .base_info_bundle{
+        background: rgba(117, 117, 117, 0.38);
+        width: 275px;
+        float: right;
+        height: 350px;
+        right: -1px;
+        z-index: 100;
+        position: absolute;
+    }
+    .info_bundle {
+        color: #FFF;
+        margin: -10px -1px 0px;
+        padding: 5px;
+        border-top: 1px solid #4D4D4D;
+        border-bottom: 1px solid #4D4D4D;
+    }
+    .plat_bundle {
+        float: right;
+        background: rgba(255, 255, 255, 0.2);
+        padding: 0 5px 0 0;
+        margin: 5px 0;
+        box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.5);
+        position: relative;
+        display: inline-block;
+    }
+        .plat_bundle>ul li {
+            margin: 2px;
+            padding: 2px;
+            display: block;
+        }
+        .plat_bundle>ul li:hover {
+            background: rgba(192, 192, 192, 0.9);
+            box-shadow: 0px 0px 16px #FFF;
+            border-radius: 10px;
+        }
+    .cat_bundle{
+        position: relative;
+        float: left;
+        display: inline-block;
+    }
+        .cat_bundle ul{
+            display: inline-block;
+        }
+        .cat_bundle ul li{
+            display: inline-block;
+        }
+    
+        .mini_cat_bundle{
+            padding: 0 5px;
+            margin: 2px 4px;
+            display: inline-block;
+            border-radius: 30px;
+            text-transform: capitalize;
+            font-size: 12px;
+        }
+        .mini_cat_bundle:hover{
+            padding: 0 5px;
+            margin: 2px 4px;
+            display: inline-block;
+            background: #FFF;
+            color: black;
+            border-radius: 30px;
+            text-transform: capitalize;
+            font-size: 12px;
+        }
+
+    .add_bundle{
+        font-family: 'WebSymbolsRegular', cursive;
+        font-size: 25px;
+        color: #F00;
+        text-shadow: 0px 0px 8px #000;
+        line-height: 20px;
+        position: absolute;
+        margin: 2px -30px;
+    }
+    .buy_bundle {
+        margin: 5px;
+        text-align: center;
+        padding: 30px 0;
+    }
+        .buy_bundle_cart{
+            background: url("../img/shop_cart.png");
+            background-size: 20px 20px;
+            height: 20px;
+            width: 20px;
+            margin: 0 5px 0 0;
+            display: inline-block;
+        }
+        .buy_button {
+            color: #FFFFFF;
+            text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+            background-color: #C4C4C4;
+            *background-color: #C4C4C4;
+            background-image: -moz-linear-gradient(top, #474747, #C4C4C4);
+            background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#474747), to(#C4C4C4));
+            background-image: -webkit-linear-gradient(top, #474747, #C4C4C4);
+            background-image: -o-linear-gradient(top, #474747, #C4C4C4);
+            background-image: linear-gradient(to bottom, #474747, #C4C4C4);
+            background-repeat: repeat-x;
+            border-color: #C4C4C4;
+            border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+            filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#474747', endColorstr='#C4C4C4', GradientType=0);
+            filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+            margin: 10px;
+        }
+        .buy_button:hover,
+        .buy_button:active,
+        .buy_button.active,
+        .buy_button.disabled,
+        .buy_button[disabled] {
+            color: #000000;
+            background-color: #C4C4C4;
+            *background-color: #003bb3;
+        }

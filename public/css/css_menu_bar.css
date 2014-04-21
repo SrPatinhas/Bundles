@@ -1,0 +1,331 @@
+@import url(http://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700);
+
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,600,300);
+@charset 'UTF-8';
+/* Base Styles */
+#menu_bar_p,
+#menu_bar_p ul,
+#menu_bar_p li,
+#menu_bar_p a {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  list-style: none;
+  font-weight: normal;
+  text-decoration: none;
+  line-height: 1;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  position: relative;
+}
+#menu_bar_p {
+  width: 230px;
+  border-bottom: 4px solid #656659;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+}
+#menu_bar_p a {
+  line-height: 1.3;
+}
+#menu_bar_p > ul > li:first-child {
+  background: #66665e;
+  background: -moz-linear-gradient(#66665e 0%, #45463d 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #66665e), color-stop(100%, #45463d));
+  background: -webkit-linear-gradient(#66665e 0%, #45463d 100%);
+  background: linear-gradient(#66665e 0%, #45463d 100%);
+  border: 1px solid #45463d;
+  -webkit-border-radius: 3px 3px 0 0;
+  -moz-border-radius: 3px 3px 0 0;
+  border-radius: 3px 3px 0 0;
+}
+#menu_bar_p > ul > li:first-child > a {
+  padding: 15px 0px 15px 12px;
+  background: url(../img/pattern.png) top left repeat;
+  border: none;
+  border-top: 1px solid #818176;
+  -webkit-border-radius: 3px 3px 0 0;
+  -moz-border-radius: 3px 3px 0 0;
+  border-radius: 3px 3px 0 0;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 18px;
+  text-shadow: 0 -1px 1px #000000;
+}
+#menu_bar_p > ul > li:first-child > a > span {
+  padding: 0;
+}
+#menu_bar_p > ul > li:first-child:hover {
+  background: #686d6d;
+  background: -moz-linear-gradient(#686d6d 0%, #45463d 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #686d6d), color-stop(100%, #45463d));
+  background: -webkit-linear-gradient(#686d6d 0%, #45463d 100%);
+  background: linear-gradient(#686d6d 0%, #45463d 100%);
+}
+#menu_bar_p > ul > li {
+  background: #66665e;
+  background: -moz-linear-gradient(#66665e 0%, #45463d 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #66665e), color-stop(100%, #45463d));
+  background: -webkit-linear-gradient(#66665e 0%, #45463d 100%);
+  background: linear-gradient(#66665e 0%, #45463d 100%);
+}
+#menu_bar_p > ul > li:hover  {
+  background: #686d6d;
+  background: -moz-linear-gradient(#686d6d 0%, #4f5353 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #686d6d), color-stop(100%, #4f5353));
+  background: -webkit-linear-gradient(#686d6d 0%, #4f5353 100%);
+  background: linear-gradient(#686d6d 0%, #4f5353 100%);
+}
+#menu_bar_p > ul > li > a {
+  font-size: 18px;
+  display: block;
+  background: url(../img/pattern.png) top left repeat;
+  color: #ffffff;
+  border: 1px solid #4a4e4e;
+  border-top: none;
+  text-shadow: 0 -1px 1px #252626;
+}
+#menu_bar_p > ul > li > a > span {
+  display: block;
+  padding: 12px 10px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+}
+#menu_bar_p > ul > li > a:hover {
+  text-decoration: none;
+}
+#menu_bar_p > ul > li.active {
+  border-bottom: none;
+}
+#menu_bar_p > ul > li.has-sub > a span {
+  background: url(../img/icon_plus.png) 96% center no-repeat;
+}
+#menu_bar_p > ul > li.has-sub.active > a span {
+  background: url(../img/icon_minus.png) 96% center no-repeat;
+}
+/* Sub menu */
+#menu_bar_p ul ul {
+  display: none;
+  background: #fff;
+  border-right: 1px solid #a2a194;
+  border-left: 1px solid #a2a194;
+}
+#menu_bar_p ul ul li {
+  padding: 0;
+  border-bottom: 1px solid #d4d4d4;
+  border-top: none;
+  background: #f7f7f7;
+  background: -moz-linear-gradient(#f7f7f7 0%, #ececec 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #f7f7f7), color-stop(100%, #ececec));
+  background: -webkit-linear-gradient(#f7f7f7 0%, #ececec 100%);
+  background: linear-gradient(#f7f7f7 0%, #ececec 100%);
+}
+#menu_bar_p ul ul li:last-child {
+  border-bottom: none;
+}
+#menu_bar_p ul ul a {
+  display: block;
+  color: #676767;
+  font-size: 16px;
+  font-weight: normal;
+}
+#menu_bar_p ul ul a:before {
+  position: absolute;
+  left: 10px;
+  color: #6f7575;
+}
+#menu_bar_p ul ul a:hover {
+  color: #6f7575;
+}
+
+input[type=checkbox].check_paint {
+position: absolute; 
+overflow: hidden; 
+clip: rect(0 0 0 0); 
+height:1px; 
+width:1px; 
+margin:-1px; 
+padding:0;
+border:0;
+}
+
+input[type=checkbox].check_paint + label.label_paint {
+  background-repeat: no-repeat;
+  background-image: url(../../public/img/checkbox.png);
+  background-size: 25px;
+  background-position: 27px 5px;
+  padding: 5px 10px 10px 52px;
+  margin-bottom: 0px;
+  width: 100%;
+  height: 28px;
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 15px;
+  line-height: 20px;
+  cursor: pointer;
+}
+
+input[type=checkbox].check_paint:checked + label.label_paint {
+background-image:url(../../public/img/checkbox_check.png);
+background-size: 25px;
+}
+
+.plat_li{
+  float: left;
+  position: absolute;
+  margin-left: -73px;
+  padding: 8px 0 0 85px !important;
+  background-position: 62px !important;
+  height: 100% !important;
+}
+.mini_cat, .mini_plat {
+  padding: 0 5px;
+  margin: 5px 4px;
+  display: inline-block;
+  background: #FFF;
+  border-radius: 30px;
+  line-height: 25px;
+  text-transform: capitalize;
+  font-family: cursive;
+  font-size: 15px;
+}
+.plat_Steam{
+  width: 40px;
+  height: 20px;
+  margin: 5px 16px 5px;
+}
+.plat_Windows{
+  width: 30px;
+  height: 40px;
+  margin: 0px 21px 0px;
+}
+.plat_IOS{
+  width: 25px;
+  height: 25px;
+  margin: 5px 24px 4px;
+}
+.plat_Linux{
+  width: 30px;
+  height: 35px;
+  margin: 5px 21px 4px;
+}
+.plat_Android{
+  width: 33px;
+  height: 30px;
+  margin: 5px 20px 1px;
+}
+
+.lista_mini >li {
+  display: inline;
+  color: #000;
+}
+.lista_mini > li > a {
+  color: #000;
+}
+#teste_cat {
+  padding: 3px;
+}
+/*
+ * DO NOT EDIT THIS FILE DIRECTLY
+ * Compiled from bootstrap-tagmanager.less based on Bootstrap 2.3.1 variables
+ * https://github.com/twitter/bootstrap/blob/master/less/variables.less
+ */
+.tm-tag {
+  color: #555555;
+  background-color: #f5f5f5;
+  border: #bbbbbb 1px solid;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;
+  display: inline-block;
+  border-radius: 3px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 13px;
+  margin: 0 5px 5px 0;
+  padding: 4px;
+  text-decoration: none;
+  transition: border 0.2s linear 0s, box-shadow 0.2s linear 0s;
+  -moz-transition: border 0.2s linear 0s, box-shadow 0.2s linear 0s;
+  -webkit-transition: border 0.2s linear 0s, box-shadow 0.2s linear 0s;
+  vertical-align: middle;
+  line-height: 25px;
+}
+.tm-tag .tm-tag-remove {
+  color: #000;
+  font-weight: bold !important;
+  margin-left: 4px !important;
+  opacity: 0.5;
+  font-size: 13px !important;
+}
+.tm-tag .tm-tag-remove:hover {
+  color: #000000;
+  text-decoration: none;
+  opacity: 0.8;
+}
+.tm-tag.tm-tag-warning {
+  color: #945203;
+  background-color: #f2c889;
+  border-color: #f0a12f;
+}
+.tm-tag.tm-tag-error {
+  color: #84212e;
+  background-color: #e69ca6;
+  border-color: #d24a5d;
+}
+.tm-tag.tm-tag-success {
+  color: #638421;
+  background-color: #cde69c;
+  border-color: #a5d24a;
+}
+.tm-tag.tm-tag-info {
+  color: #4594b5;
+  background-color: #c5eefa;
+  border-color: #5dc8f7;
+}
+.tm-tag.tm-tag-inverse {
+  color: #cccccc;
+  background-color: #555555;
+  border-color: #333333;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2) inset;
+}
+.tm-tag.tm-tag-inverse .tm-tag-remove {
+  color: #ffffff;
+}
+.tm-tag.tm-tag-large {
+  font-size: 16.25px;
+  border-radius: 4px;
+  padding: 11px 7px;
+}
+.tm-tag.tm-tag-small {
+  font-size: 11.049999999999999px;
+  border-radius: 3px;
+  padding: 2px 4px;
+}
+.tm-tag.tm-tag-mini {
+  font-size: 9.75px;
+  border-radius: 2px;
+  padding: 0px 2px;
+}
+.tm-tag.tm-tag-plain {
+  color: #333333;
+  box-shadow: none;
+  background: none;
+  border: none;
+}
+.tm-tag.tm-tag-disabled {
+  color: #aaaaaa;
+  background-color: #e6e6e6;
+  border-color: #cccccc;
+  box-shadow: none;
+}
+.tm-tag.tm-tag-disabled .tm-tag-remove {
+  display: none;
+}
+input[type="text"].tm-input {
+  margin-bottom: 5px;
+  vertical-align: middle !important;
+}
+.control-group.tm-group {
+  margin-bottom: 5px;
+}
+.form-horizontal .control-group.tm-group {
+  margin-bottom: 15px;
+}

@@ -1,0 +1,356 @@
+body{
+	background-image:url("../img/bg.png");
+	font-family: cursive;
+}
+legend{
+	text-align: center;
+	width: 100%;
+}
+.lg-container{
+	width:750px;
+	margin: 10px auto;
+	padding:20px 40px;
+	border:1px solid #f4f4f4;
+	background:rgba(255,255,255,.7);
+	-webkit-border-radius:10px;
+	-moz-border-radius:10px;
+	border-radius:10px;
+	
+	-webkit-box-shadow: 0 3px 11px #030303;;
+	-moz-box-shadow: 0 3px 11px #030303;;
+	box-shadow: 0 3px 11px #030303;;
+}
+.lg-container h1{
+	font-size:40px;
+	text-align:center;
+}
+#lg-form > div {
+	margin:10px 5px;
+	padding:5px 0;
+}
+#lg-form label{
+	display: none;
+	font-size: 20px;
+	line-height: 25px;
+}
+#lg-form input[type="text"],
+#lg-form input[type="password"]{
+	border:1px solid rgba(51,51,51,.5);
+	-webkit-border-radius:10px;
+	-moz-border-radius:10px;
+	border-radius:10px;
+	padding: 5px;
+	font-size: 16px;
+	line-height: 20px;
+	width: 100%;
+	font-family: 'Oleo Script', cursive;
+	text-align:center;
+}
+#lg-form div:nth-child(3) {
+	text-align:center;
+}
+#lg-form button{
+	font-family: 'Oleo Script', cursive;
+	font-size: 18px;
+	border:1px solid #000;
+	padding:5px 10px;
+	border:1px solid rgba(51,51,51,.5);
+	-webkit-border-radius:10px;
+	-moz-border-radius:10px;
+	border-radius:10px;
+	
+	-webkit-box-shadow: 2px 1px 1px #aaa;
+	-moz-box-shadow: 2px 1px 1px #aaa;
+	box-shadow: 2px 1px 1px #aaa;
+	cursor:pointer;
+}
+#lg-form button:active{
+	-webkit-box-shadow: 0px 0px 1px #aaa;
+	-moz-box-shadow: 0px 0px 1px #aaa;
+	box-shadow: 0px 0px 1px #aaa;
+}
+#lg-form button:hover{
+	background:#f4f4f4;
+}
+#message{width:100%;text-align:center}
+.success {
+	color: green;
+}
+.error {
+	color: red;
+}
+#success_div, #success_div_bundle{
+	float: left;
+	max-width: 400px;
+	position: absolute;
+	background: rgba(255, 255, 255, 0.72);
+	padding: 5px;
+	border-radius: 5px;
+	box-shadow: 3px 3px 10px;
+	display: none;
+}
+.titulo_game{
+	font-family: cursive;
+	font-size: 22px;
+	margin: 3px auto;
+	padding: 0px 15px;
+	border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+}
+.image_game{
+	max-width: 350px;
+	max-height: 450px;
+	border: 2px solid #000;
+	border-radius: 5px;
+	box-shadow: 1px 1px 8px #FFF;
+	margin: 10px auto;
+	border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+}
+.cat_game, .plat_game{
+	margin: 3px auto;
+	padding: 0px 15px;
+	border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+}
+.mini_cat_game, .mini_plat_game{
+	font-size: 12px;
+	font-family: cursive;
+	background: #FFF;
+	padding: 1px 3px;
+	border-radius: 10px;
+	margin: 2px;
+	display: inline-block;
+}
+.data_game{
+	margin: 3px auto;
+	padding: 0px 15px;
+	border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+}
+.mini_data_game{
+	font-size: 14px;
+	font-family: cursive;
+	padding: 1px 3px;
+	margin: 2px;
+}
+
+.office{
+	margin: 0px auto;
+	width: 100%;
+}
+.games_for_bundle{
+	border:2px solid #ccc;
+	width:250px;
+	height: 300px;
+	overflow-y: auto;
+}
+.required{
+	border: 1px solid #333;
+	font-size: 14px;
+	padding: 3px;
+	width: 400px;
+	font-family: 'Georgia', Times New Roman, Times, serif;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+.info{
+	margin: 2px;
+	font-family: sans-serif;
+	padding: 3px;
+	width: 630px;
+	height: 200px;
+	resize: none;
+}
+
+.close_success{
+	width:25px;
+	height:25px;
+	display:block;
+	text-transform:uppercase;
+	text-decoration:none;
+	color:#fff;
+	font-family:"Tahoma", Helvetica, sans-serif;
+	text-align:center;
+	font-size:18px;
+	line-height:1.4em;
+	border-color: #1472ad;
+	background-color: #F00;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#F00), to(#cc0000));
+	background-image: -webkit-linear-gradient(top, #F00, #cc0000);
+	background-image: -moz-linear-gradient(top, #F00, #cc0000);
+	background-image: -o-linear-gradient(top, #F00, #cc0000);
+	background-image: linear-gradient(to bottom, #F00, #cc0000);
+	box-shadow:0px 0px 2px 0px #666;
+	-moz-box-shadow:0px 0px 2px 0px #666;
+	-webkit-box-shadow:0px 0px 2px 0px #666;
+	border-radius:50%;
+	-moz-border-radius:50%;
+	-webkit-border-radius:50%;
+	text-indent:1px;
+	font-weight:bold;
+	float: right;
+	margin: 0px 10px;
+	cursor: pointer;
+}
+.new_category{
+	font-family: fantasy;
+	color:green;
+}
+
+/* CSS para as imagens */
+
+.plat_Steam{
+  width: 40px;
+  height: 20px;
+  margin: 5px 16px 5px;
+}
+.plat_Windows{
+  width: 30px;
+  height: 40px;
+  margin: 0px 21px 0px;
+}
+.plat_IOS{
+  width: 25px;
+  height: 25px;
+  margin: 5px 24px 4px;
+}
+.plat_Linux{
+  width: 30px;
+  height: 35px;
+  margin: 5px 21px 4px;
+}
+.plat_Android{
+  width: 33px;
+  height: 30px;
+  margin: 5px 20px 1px;
+}
+.hi-icon-refresh{
+	margin: 0 10px;
+	width:40px;
+	border-radius:3px;
+	-webkit-transform: rotate(0deg);
+	-webkit-transition: -webkit-transform 0.25s ease-in-out;
+	cursor: pointer;
+}
+.hi-icon-refresh:hover{
+	-webkit-transform: rotate(350deg);
+	-webkit-transition: -webkit-transform 0.25s ease-in-out;
+}
+
+/* CSS usado na pesquisa do youtube */
+
+ 
+		.search_input_youtube{
+			border: 2px solid #333;
+			font-size: 20px;
+			padding: 5px;
+			width: 150px;
+			font-family: 'Georgia', Times New Roman, Times, serif;
+			-moz-border-radius: 5px;
+			-webkit-border-radius: 5px;
+			float: right;
+			margin: 70px 0px 0;
+			-webkit-transition: 0.5s;
+			-moz-transition: 0.5s;
+			-ms-transition: 0.5s;
+			-o-transition: 0.5s;
+			transition: 0.5s;
+		}
+		.search_input_youtube:focus, .search_youtube{
+			width: 350px;
+			-webkit-transition: 1s;
+			-moz-transition: 1s;
+			-ms-transition: 1s;
+			-o-transition: 1s;
+			transition: 1s;
+		}
+		#input_box_youtube{
+			text-align: left;
+			float: right;
+			position: fixed;
+			width: 360px;
+			right: 0;
+			top: 0;
+		}
+		#result_youtube{
+			background-color: #000;
+			margin-top: 25px;
+			min-height: 230px;
+			width: 355px;
+			border: solid 4px #FFF;
+			float: left;
+			margin-left: 10px;
+			-moz-border-radius: 9px;
+			-webkit-border-radius: 2px;
+			overflow: auto;
+		}
+		#video_youtube{
+			background-color: rgba(0, 0, 0, 0.63);
+			margin-top: 120px;
+			width: 760px;
+			min-height: 30px;
+			max-height: 630px;
+			overflow-y: scroll;
+			position: fixed;
+			box-shadow: 0px 0px 10px 3px #000;
+			right: 0;
+
+			-webkit-transition: 1s;
+			-moz-transition: 1s;
+			-ms-transition: 1s;
+			-o-transition: 1s;
+			transition: 1s;
+		}
+		.video_up_youtube{
+			right: -770px !important;
+
+			-webkit-transition: 1s;
+			-moz-transition: 1s;
+			-ms-transition: 1s;
+			-o-transition: 1s;
+			transition: 1s;
+		}
+		#no_youtube{
+			padding:30px;
+			font-size:24px;
+			color:#fff;
+		}
+		#title_youtube{
+			background-color:#fff;
+			font-size:16px;
+			text-align:left;
+			padding-bottom:8px;
+			height:30px;
+		}
+		#count_youtube{
+			background-color:#fff;
+			text-align:left;
+			padding-top:8px;
+		}
+		.add_video_youtube{
+			margin: auto;
+			width: 100%;
+			border-radius: 0;
+		}
+/* botao para limpar youtube search input */
+
+		#pesquisa_youtube, .clear_input{
+			background:url(http://i.imgur.com/z7ZSYjt.png) no-repeat right -15px center;
+			background-size: 12px;
+			background-color: #FFF;
+			transition: background 0.4s;
+		}
+		#pesquisa_youtube.x, .clear_input.x{
+			background-position: right 10px center;
+		}
+		#pesquisa_youtube.onX, .clear_input.onX{
+			cursor:pointer;
+		}
+#user_delete_msg{
+	position: absolute;
+	text-align: center;
+	width: 920px;
+	background: #FFF;
+	box-shadow: 1px 1px 16px 1px;
+	border-radius: 5px;
+	padding: 10px;
+	height: 36px;
+	margin-top: -15px;
+}
