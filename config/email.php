@@ -7,8 +7,8 @@
     $mail->IsSMTP(); // send via SMTP
 
         $mail->SMTPAuth = true; // turn on SMTP authentication
-        $mail->Username = "migascc69@gmail.com"; // SMTP username
-        $mail->Password = "Car1catura"; // SMTP password
+        $mail->Username = "*******@gmail.com"; // SMTP username
+        $mail->Password = "**********"; // SMTP password
 
         $webmaster_email = "migascc69@gmail.com"; //Reply to this email ID
 
